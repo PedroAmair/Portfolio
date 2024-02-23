@@ -1,6 +1,6 @@
 import anime from "animejs";
 
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
     startAnime();
 });
 
