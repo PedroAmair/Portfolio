@@ -1,10 +1,10 @@
 {
   "public/img/desktop.webp": {
-    "file": "assets/desktop-w0qwR4dZ.webp",
+    "file": "assets/desktop-aBXCcj3X.webp",
     "src": "public/img/desktop.webp"
   },
   "public/img/programming.webp": {
-    "file": "assets/programming-9Lo6bF0a.webp",
+    "file": "assets/programming-xgZmehwJ.webp",
     "src": "public/img/programming.webp"
   },
   "public/img/techBg.webp": {
@@ -12,12 +12,12 @@
     "src": "public/img/techBg.webp"
   },
   "resources/css/app.css": {
-    "file": "assets/app-x5-C_9Lv.css",
+    "file": "assets/app-IFcsnFQm.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
   "resources/css/styles.css": {
-    "file": "assets/styles-DNPDIQkE.css",
+    "file": "assets/styles-C9swsknn.css",
     "isEntry": true,
     "src": "resources/css/styles.css"
   },
