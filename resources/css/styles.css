@@ -1,0 +1,32 @@
+.principal {
+    background-image: url('/public/img/desktop.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagen {
+    background-image: url('/public/img/programming.webp');
+    background-size: cover;
+    background-position-y: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.sideMovement {
+    position: relative;
+}
+
+.vanish {
+    display: none;
+}
+
+.sideMovement span {
+    position: relative;
+    display: inline-block;
+}
+
+.techBg {
+    background-image: url('/public/img/techBg.webp');
+}
