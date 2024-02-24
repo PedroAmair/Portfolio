@@ -121,19 +121,19 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center">
                 <div>
                     <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 1 }})">
-                        <img class="rounded-lg hover:animate-pulse shadow-2xl shadow-yellow-300" src="{{asset('img/projects/CarDealership.webp')}}" alt="project1 image">
+                        <img class="rounded-lg hover:animate-pulse" src="{{asset('img/projects/CarDealership.webp')}}" alt="project1 image">
                     </button>
                 </div>
 
                 <div>
                     <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 2 }})">
-                        <img class="rounded-lg hover:animate-pulse shadow-2xl shadow-pink-600" src="{{asset('img/projects/PartyClub.webp')}}" alt="project2 image">
+                        <img class="rounded-lg hover:animate-pulse" src="{{asset('img/projects/PartyClub.webp')}}" alt="project2 image">
                     </button>
                 </div>
 
                 <div>
                     <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 3 }})">
-                        <img class="rounded-lg hover:animate-pulse shadow-2xl shadow-blue-700" src="{{asset('img/projects/PCStore.webp')}}" alt="project2 image">
+                        <img class="rounded-lg hover:animate-pulse" src="{{asset('img/projects/PCStore.webp')}}" alt="project2 image">
                     </button>
                 </div>
             </div>
