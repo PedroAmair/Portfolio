@@ -23,7 +23,7 @@ function startAnime() {
         scale: [10,1],
         opacity: [0,1],
         easing: "easeOutExpo",
-        duration: 1000,
+        duration: 500,
         delay: anime.stagger(100),
     })
 
@@ -31,7 +31,7 @@ function startAnime() {
         targets: '#appearingMovement span',
         opacity: [0,1],
         easing: "easeInQuad",
-        duration: 500,
+        duration: 1000,
         delay: anime.stagger(100),
-    })
+    }, '+=1000')
 }
