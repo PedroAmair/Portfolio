@@ -90,11 +90,11 @@
                 </div>
 
                 <div class="grid grid-cols-2 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0 gap-x-5">
-                    <img class="w-28" src="{{asset('img/icons/php.png')}}" alt="php logo">
-                    <img class="w-28" src="{{asset('img/icons/html.png')}}" alt="html5 logo">
-                    <img class="w-28" src="{{asset('img/icons/css3.png')}}" alt="css3 logo">
-                    <img class="w-28" src="{{asset('img/icons/javascript.png')}}" alt="javascript logo">
-                    <img class="w-28" src="{{asset('img/icons/sql.png')}}" alt="sql logo">
+                    <img loading="lazy" class="w-28" src="{{asset('img/icons/php.png')}}" alt="php logo">
+                    <img loading="lazy" class="w-28" src="{{asset('img/icons/html.png')}}" alt="html5 logo">
+                    <img loading="lazy" class="w-28" src="{{asset('img/icons/css3.png')}}" alt="css3 logo">
+                    <img loading="lazy" class="w-28" src="{{asset('img/icons/javascript.png')}}" alt="javascript logo">
+                    <img loading="lazy" class="w-28" src="{{asset('img/icons/sql.png')}}" alt="sql logo">
                 </div>
             </div>
 
@@ -104,10 +104,10 @@
                 </div>
 
                 <div class="grid grid-rows-2 grid-cols-2 justify-items-center items-center">
-                    <img class="w-40 mr-5 sm:mr-0" src="{{asset('img/icons/Laravel.png')}}" alt="laravel logo">
-                    <img class="w-60" src="{{asset('img/icons/Tailwind.png')}}" alt="tailwind logo">
-                    <img class="w-44 self-start 2xl:self-auto" src="{{asset('img/icons/Sass.png')}}" alt="Sass logo">
-                    <img class="w-16 md:w-20 lg:w-16 xl:w-20 2xl:w-24 self-start 2xl:self-auto" src="{{asset('img/icons/Livewire.png')}}" alt="livewire logo">
+                    <img loading="lazy" class="w-40 mr-5 sm:mr-0" src="{{asset('img/icons/Laravel.png')}}" alt="laravel logo">
+                    <img loading="lazy" class="w-60" src="{{asset('img/icons/Tailwind.png')}}" alt="tailwind logo">
+                    <img loading="lazy" class="w-44 self-start 2xl:self-auto" src="{{asset('img/icons/Sass.png')}}" alt="Sass logo">
+                    <img loading="lazy" class="w-16 md:w-20 lg:w-16 xl:w-20 2xl:w-24 self-start 2xl:self-auto" src="{{asset('img/icons/Livewire.png')}}" alt="livewire logo">
                 </div>
             </div>
         </div>

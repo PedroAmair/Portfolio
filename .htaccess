@@ -4,3 +4,7 @@ RewriteBase /
 RewriteCond %{REQUEST_URI} !/public
 RewriteRule ^(.*)$ public/$1
 </IfModule>
+
+<FilesMatch \\.(jpg|jpeg|png|gif|js|css|svg)$>
+    Header set Cache-Control "max-age=864000, public"
+</FilesMatch>

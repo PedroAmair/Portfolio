@@ -31,7 +31,7 @@
             ">
             <label class="absolute inset-0" for="image-01"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
               </div>
           </div>
     
@@ -57,7 +57,7 @@
             ">
             <label class="absolute inset-0" for="image-02"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
               </div>
           </div>
     
@@ -83,7 +83,7 @@
             ">
             <label class="absolute inset-0" for="image-03"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
               </div>
           </div>
     
@@ -114,7 +114,7 @@
             ">
             <label class="absolute inset-0" for="image-04"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
               </div>
           </div>  
     
@@ -138,7 +138,7 @@
             ">
             <label class="absolute inset-0" for="image-05"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
               </div>
           </div>                  
         </div>
@@ -198,7 +198,7 @@
             ">
             <label class="absolute inset-0" for="image-01"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
               </div>
           </div>
     
@@ -224,7 +224,7 @@
             ">
             <label class="absolute inset-0" for="image-02"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
               </div>
           </div>
     
@@ -250,7 +250,7 @@
             ">
             <label class="absolute inset-0" for="image-03"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
               </div>
           </div>
     
@@ -281,7 +281,7 @@
             ">
             <label class="absolute inset-0" for="image-04"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
               </div>
           </div>  
     
@@ -305,7 +305,7 @@
             ">
             <label class="absolute inset-0" for="image-05"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
               </div>
           </div>                  
         </div>
@@ -369,7 +369,7 @@
             ">
             <label class="absolute inset-0" for="image-01"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
               </div>
           </div>
     
@@ -395,7 +395,7 @@
             ">
             <label class="absolute inset-0" for="image-02"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
               </div>
           </div>
     
@@ -421,7 +421,7 @@
             ">
             <label class="absolute inset-0" for="image-03"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
               </div>
           </div>
     
@@ -452,7 +452,7 @@
             ">
             <label class="absolute inset-0" for="image-04"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
               </div>
           </div>  
     
@@ -476,7 +476,7 @@
             ">
             <label class="absolute inset-0" for="image-05"><span class="sr-only">Focus on the big picture</span></label>
               <div class="w-full">
-                <img class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
+                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
               </div>
           </div>                  
         </div>
