@@ -31,7 +31,7 @@ function startAnime() {
         targets: '#appearingMovement span',
         opacity: [0,1],
         easing: "easeInQuad",
-        duration: 1000,
+        duration: 500,
         delay: anime.stagger(100),
     })
 }
