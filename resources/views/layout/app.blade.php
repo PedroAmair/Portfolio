@@ -14,7 +14,7 @@
     </head>
     <body class="bg-black max-w-[2600px]">
         
-       <div class="w-4/5 m-auto">@yield('content')</div>
+       <div class="w-full md:w-4/5 m-auto">@yield('content')</div>
 
        <footer>
             <div class="bg-gray-300 p-5 w-full mx-auto">

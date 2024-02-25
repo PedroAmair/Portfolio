@@ -10,7 +10,7 @@
         
             <div class="relative" data-te-dropdown-ref>
                 <button
-                class="flex items-center whitespace-nowrap rounded px-3 md:px-6 pb-2 pt-2.5 text-xs md:text-base 3xl:text-xl 4xl:text-2xl font-serif mr-4 md:mr-0 uppercase leading-normal text-zinc-900 hover:bg-zinc-300"
+                class="flex items-center whitespace-nowrap rounded px-3 md:px-6 pb-2 pt-2.5 text-xs md:text-base 3xl:text-xl 4xl:text-2xl font-serif mr-[-2rem] md:mr-0 uppercase leading-normal text-zinc-900 hover:bg-zinc-300"
                 type="button"
                 id="dropdownMenuButton1h"
                 data-te-dropdown-toggle-ref
@@ -60,7 +60,7 @@
                 <h1 id="sideMovement" class="vanish sideMovement text-zinc-900 text-[3rem] xs:text-[4rem] md:text-[5rem] 2xl:text-[8rem] font-presentation uppercase font-bold xl:mx-16">
                     Pedro Amair
                </h1>
-               <p class="vanish imagen text-transparent text-[2.5rem] xs:text-[3rem] 2xl:text-[5rem] font-presentation uppercase font-bold xl:mx-32 2xl:mx-36 mt-[-1.5rem] xs:mt-[-2rem] 2xl:mt-[-3rem]">
+               <p class="vanish imagen text-zinc-900 md:text-transparent text-[2rem] xs:text-[2.5rem] md:text-[3.5rem] 2xl:text-[5rem] font-presentation uppercase font-bold xl:mx-32 2xl:mx-36 mt-[-1rem] xs:mt-[-1.5rem] md:mt-[-2rem] 2xl:mt-[-3rem]">
                     Web developer
                </p>
             </div>
@@ -115,7 +115,7 @@
 
     <section class="mb-28">
         <div class="flex flex-col gap-16">
-            <div class="bg-gray-300 text-zinc-900 text-center font-presentation p-5 text-2xl md:text-3xl 2xl:text-4xl 3xl:text-5xl w-full lg:w-2/3 xl:w-1/3 mx-auto rounded-full">
+            <div class="bg-gray-300 text-zinc-900 text-center font-presentation p-5 text-2xl md:text-3xl 2xl:text-4xl 3xl:text-5xl w-4/5 md:w-2/3 xl:w-1/3 mx-auto rounded-lg">
                 <h2>{{__('messages.projects')}}</h2>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center">
