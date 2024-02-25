@@ -1,8 +1,8 @@
 <div>
   @switch($project)
     @case(1)
-      <section class="px-10 py-5 bg-zinc-900">
-
+      <section class="px-10 py-8 bg-zinc-900">
+        <button class="absolute top-0 right-0 z-10 py-2 px-3 bg-red-500 hover:bg-red-600 rounded-sm font-serif font-bold" wire:click="$dispatch('closeModal')">X</button>
         <div class="max-w-lg mx-auto relative">
     
           <input id="image-01" type="radio" name="slider" class="sr-only peer/01">
@@ -31,7 +31,7 @@
             ">
             <label class="absolute inset-0" for="image-01"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
               </div>
           </div>
     
@@ -55,9 +55,9 @@
             peer-checked/05:-translate-x-40 
             peer-checked/05:opacity-0
             ">
-            <label class="absolute inset-0" for="image-02"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-02"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
               </div>
           </div>
     
@@ -81,9 +81,9 @@
             peer-checked/05:-translate-x-40
             peer-checked/05:z-30                  
             ">
-            <label class="absolute inset-0" for="image-03"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-03"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
               </div>
           </div>
     
@@ -112,9 +112,9 @@
             peer-checked/05:scale-[83.75%]
             peer-checked/05:z-40
             ">
-            <label class="absolute inset-0" for="image-04"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-04"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
               </div>
           </div>  
     
@@ -136,9 +136,9 @@
             peer-checked/05:scale-100
             peer-checked/05:[&>label]:pointer-events-none
             ">
-            <label class="absolute inset-0" for="image-05"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-05"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
               </div>
           </div>                  
         </div>
@@ -168,8 +168,8 @@
       </div>
       @break
     @case(2)
-      <section class="px-10 py-5 bg-zinc-900">
-
+      <section class="px-10 py-8 bg-zinc-900">
+        <button class="absolute top-0 right-0 z-10 py-2 px-3 bg-red-500 hover:bg-red-600 rounded-sm font-serif font-bold" wire:click="$dispatch('closeModal')">X</button>
         <div class="max-w-lg mx-auto relative">
     
           <input id="image-01" type="radio" name="slider" class="sr-only peer/01">
@@ -198,7 +198,7 @@
             ">
             <label class="absolute inset-0" for="image-01"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
               </div>
           </div>
     
@@ -222,9 +222,9 @@
             peer-checked/05:-translate-x-40 
             peer-checked/05:opacity-0
             ">
-            <label class="absolute inset-0" for="image-02"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-02"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
               </div>
           </div>
     
@@ -248,9 +248,9 @@
             peer-checked/05:-translate-x-40
             peer-checked/05:z-30                  
             ">
-            <label class="absolute inset-0" for="image-03"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-03"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
               </div>
           </div>
     
@@ -279,9 +279,9 @@
             peer-checked/05:scale-[83.75%]
             peer-checked/05:z-40
             ">
-            <label class="absolute inset-0" for="image-04"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-04"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
               </div>
           </div>  
     
@@ -303,9 +303,9 @@
             peer-checked/05:scale-100
             peer-checked/05:[&>label]:pointer-events-none
             ">
-            <label class="absolute inset-0" for="image-05"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-05"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
               </div>
           </div>                  
         </div>
@@ -339,8 +339,8 @@
       @break
   
     @case(3)
-      <section class="px-10 py-5 bg-zinc-900">
-
+      <section class="px-10 py-8 bg-zinc-900">
+        <button class="absolute top-0 right-0 z-10 py-2 px-3 bg-red-500 hover:bg-red-600 rounded-sm font-serif font-bold" wire:click="$dispatch('closeModal')">X</button>
         <div class="max-w-lg mx-auto relative">
     
           <input id="image-01" type="radio" name="slider" class="sr-only peer/01">
@@ -369,7 +369,7 @@
             ">
             <label class="absolute inset-0" for="image-01"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/1.webp')}}" alt="image1">
               </div>
           </div>
     
@@ -393,9 +393,9 @@
             peer-checked/05:-translate-x-40 
             peer-checked/05:opacity-0
             ">
-            <label class="absolute inset-0" for="image-02"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-02"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/2.webp')}}" alt="image2">
               </div>
           </div>
     
@@ -419,9 +419,9 @@
             peer-checked/05:-translate-x-40
             peer-checked/05:z-30                  
             ">
-            <label class="absolute inset-0" for="image-03"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-03"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/3.webp')}}" alt="image3">
               </div>
           </div>
     
@@ -450,9 +450,9 @@
             peer-checked/05:scale-[83.75%]
             peer-checked/05:z-40
             ">
-            <label class="absolute inset-0" for="image-04"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-04"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/4.webp')}}" alt="image4">
               </div>
           </div>  
     
@@ -474,9 +474,9 @@
             peer-checked/05:scale-100
             peer-checked/05:[&>label]:pointer-events-none
             ">
-            <label class="absolute inset-0" for="image-05"><span class="sr-only">Focus on the big picture</span></label>
+            <label class="absolute inset-0" for="image-05"><span class="sr-only"></span></label>
               <div class="w-full">
-                <img loading="lazy" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
+                <img loading="eager" class="rounded-lg" src="{{asset('img/projects/project'.$project.'/5.webp')}}" alt="image5">
               </div>
           </div>                  
         </div>
