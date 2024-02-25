@@ -11,7 +11,7 @@ return [
      éxito.",
     'progLanguages' => "Lenguajes",
     'progTools' => "Herramientas",
-    'projects' => "Algunos de mis proyectos...",
+    'projects' => "Algunos proyectos...",
     'project1Content1' => "Proyecto web sobre un concesionario 
      de autos. Se realizó usando HTML5, CSS3 JavaScript Y PHP puro,
      sin usar ningún framework.",

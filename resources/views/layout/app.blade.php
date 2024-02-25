@@ -17,7 +17,7 @@
        <div class="w-full md:w-4/5 m-auto">@yield('content')</div>
 
        <footer>
-            <div class="bg-gray-300 p-5 w-full mx-auto">
+            <div class="bg-gray-300 p-5 min-w-min mx-auto">
                 <p class="text-md text-zinc-900 font-black text-center">Pedro Amair - {{__('messages.copyright')}} &#9400 {{ date('Y') }}</p>
             </div>
         </footer>
