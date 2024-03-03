@@ -4,6 +4,13 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
+    background-position: center center;
+}
+
+@media(min-width: 1025px) {
+    .principal {
+        background-position: 0 0;
+    }
 }
 
 .imagen {

@@ -57,10 +57,10 @@
 
         <div class="principal rounded-lg min-h-screen flex items-center justify-center xl:justify-end">
             <div class="mb-[10%] flex flex-col items-center justify-center xl:items-end xl:justify-end">
-                <h1 id="sideMovement" class="vanish sideMovement text-zinc-900 text-[3rem] xs:text-[4rem] md:text-[5rem] 2xl:text-[8rem] font-presentation uppercase font-bold xl:mx-16">
+                <h1 id="sideMovement" class="vanish sideMovement text-zinc-900 text-[3rem] xs:text-[4rem] md:text-[5rem] 2xl:text-[8rem] font-presentation uppercase font-bold xl:mx-32 3xl:mx-92 4xl:mx-32">
                     Pedro Amair
                </h1>
-               <p class="vanish imagen text-zinc-900 md:text-transparent text-[2rem] xs:text-[2.5rem] md:text-[3.5rem] 2xl:text-[5rem] font-presentation uppercase font-bold xl:mx-24 2xl:mx-36 mt-[-1rem] xs:mt-[-1.5rem] md:mt-[-2rem] 2xl:mt-[-3rem]">
+               <p class="vanish imagen text-zinc-900 md:text-transparent text-[2rem] xs:text-[2.5rem] md:text-[3.5rem] 2xl:text-[5rem] font-presentation uppercase font-bold xl:mr-40 2xl:mr-52 mt-[-1rem] xs:mt-[-1.5rem] md:mt-[-2rem] 2xl:mt-[-3rem]">
                     Web developer
                </p>
             </div>
