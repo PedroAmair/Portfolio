@@ -1,14 +1,14 @@
 {
   "public/img/desktop.webp": {
-    "file": "assets/desktop-aBXCcj3X.webp",
+    "file": "assets/desktop-wIRFlyo4.webp",
     "src": "public/img/desktop.webp"
   },
   "public/img/programming.webp": {
-    "file": "assets/programming-xgZmehwJ.webp",
+    "file": "assets/programming-bnMdnKsh.webp",
     "src": "public/img/programming.webp"
   },
   "public/img/techBg.webp": {
-    "file": "assets/techBg-0rHo9hAH.webp",
+    "file": "assets/techBg-Xi9MI-77.webp",
     "src": "public/img/techBg.webp"
   },
   "resources/css/app.css": {
@@ -17,7 +17,7 @@
     "src": "resources/css/app.css"
   },
   "resources/css/styles.css": {
-    "file": "assets/styles-W0JeAsYi.css",
+    "file": "assets/styles-ajv_NizR.css",
     "isEntry": true,
     "src": "resources/css/styles.css"
   },
