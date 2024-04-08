@@ -10,7 +10,7 @@ return [
      interesado en cultivar conocimiento para alcanzar el
      éxito.",
     'progLanguages' => "Lenguajes",
-    'progTools' => "Herramientas",
+    'progTools' => "Marcos",
     'projects' => "Algunos proyectos...",
     'project1Content1' => "Proyecto web sobre un concesionario 
      de autos. Se realizó usando HTML5, CSS3 JavaScript Y PHP puro,
