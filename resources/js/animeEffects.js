@@ -20,10 +20,11 @@ function startAnime() {
 
     .add({
         targets: '#sideMovement span',
+        translateY: [-600, 0],
         scale: [10,1],
         opacity: [0,1],
         easing: "easeOutExpo",
-        duration: 500,
+        duration: 1500,
         delay: anime.stagger(100),
     })
 
@@ -33,5 +34,5 @@ function startAnime() {
         easing: "easeInQuad",
         duration: 1000,
         delay: anime.stagger(100),
-    }, '+=1000')
+    })
 }
