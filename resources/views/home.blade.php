@@ -90,11 +90,11 @@
                 </div>
 
                 <div class="grid grid-cols-2 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0 gap-x-5">
-                    <img class="w-28 h-28" src="{{asset('img/icons/php.png')}}" alt="php logo">
-                    <img class="w-28 h-28" src="{{asset('img/icons/html.png')}}" alt="html5 logo">
-                    <img class="w-28 h-28" src="{{asset('img/icons/css3.png')}}" alt="css3 logo">
-                    <img class="w-28 h-28" src="{{asset('img/icons/javascript.png')}}" alt="javascript logo">
-                    <img class="w-28 h-28 col-start-3" src="{{asset('img/icons/sql.png')}}" alt="sql logo">
+                    <img class="w-16 xs:w-28" src="{{asset('img/icons/php.png')}}" alt="php logo">
+                    <img class="w-16 xs:w-28" src="{{asset('img/icons/html.png')}}" alt="html5 logo">
+                    <img class="w-16 xs:w-28" src="{{asset('img/icons/css3.png')}}" alt="css3 logo">
+                    <img class="w-16 xs:w-28" src="{{asset('img/icons/javascript.png')}}" alt="javascript logo">
+                    <img class="w-16 xs:w-28 col-start-3" src="{{asset('img/icons/sql.png')}}" alt="sql logo">
                 </div>
             </div>
 
