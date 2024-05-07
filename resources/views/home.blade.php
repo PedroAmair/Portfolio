@@ -89,12 +89,12 @@
                     <h2 class="techBg bg-center shadow-md shadow-gray-400 text-zinc-900 text-3xl 2xl:text-4xl 3xl:text-5xl font-presentation text-center mb-5 lg:mb-0 lg:mt-[-5rem] bg-white p-5 rounded-lg">{{__('messages.progLanguages')}}</h2>
                 </div>
 
-                <div class="grid grid-cols-2 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0 gap-x-5">
-                    <img class="w-16 ms:w-20 xs:w-28" src="{{asset('img/icons/php.png')}}" alt="php logo">
-                    <img class="w-16 ms:w-20 xs:w-28" src="{{asset('img/icons/html.png')}}" alt="html5 logo">
-                    <img class="w-16 ms:w-20 xs:w-28" src="{{asset('img/icons/css3.png')}}" alt="css3 logo">
-                    <img class="w-16 ms:w-20 xs:w-28" src="{{asset('img/icons/javascript.png')}}" alt="javascript logo">
-                    <img class="w-16 ms:w-20 xs:w-28 col-start-3" src="{{asset('img/icons/sql.png')}}" alt="sql logo">
+                <div class="grid grid-cols-2 gap-3 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0 ms:gap-x-5">
+                    <img class="w-20 xs:w-28" src="{{asset('img/icons/php.png')}}" alt="php logo">
+                    <img class="w-20 xs:w-28" src="{{asset('img/icons/html.png')}}" alt="html5 logo">
+                    <img class="w-20 xs:w-28" src="{{asset('img/icons/css3.png')}}" alt="css3 logo">
+                    <img class="w-20 xs:w-28" src="{{asset('img/icons/javascript.png')}}" alt="javascript logo">
+                    <img class="w-20 xs:w-28 col-start-3" src="{{asset('img/icons/sql.png')}}" alt="sql logo">
                 </div>
             </div>
 
