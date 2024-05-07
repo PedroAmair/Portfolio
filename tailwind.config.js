@@ -18,6 +18,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        'ms' : '375px',
         'xs' : '440px',
         '3xl' : '2000px',
         '4xl' : '3000px',
