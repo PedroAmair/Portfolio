@@ -98,17 +98,17 @@
                 </div>
             </div>
 
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col gap-8 lg:gap-0 items-center">
                 <div>
                     <h2 class="techBg bg-center shadow-md shadow-gray-400 text-zinc-900 text-3xl 2xl:text-4xl 3xl:text-5xl font-presentation text-center lg:mb-3 xl:mb-5 lg:mt-[-5rem] bg-white p-5 rounded-lg">{{__('messages.progTools')}}</h2>
                 </div>
 
-                <div class="grid grid-cols-2 gap-3 md:grid-cols-3 justify-items-center items-center">
-                    <img class="w-20 xs:w-24" src="{{asset('img/icons/Laravel.png')}}" alt="laravel logo">
-                    <img class="w-20 xs:w-24" src="{{asset('img/icons/Vuejs.png')}}" alt="vuejs logo">
+                <div class="grid grid-cols-2 gap-3 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0 ms:gap-x-5">
+                    <img class="w-20 xs:w-24 lg:w-16 xl:w-20 2xl:w-24" src="{{asset('img/icons/Laravel.png')}}" alt="laravel logo">
+                    <img class="w-20 xs:w-24 lg:w-16 xl:w-20 2xl:w-24" src="{{asset('img/icons/Vuejs.png')}}" alt="vuejs logo">
                     <img class="w-20 xs:w-24" src="{{asset('img/icons/Tailwindcss.png')}}" alt="tailwindcss logo">
-                    <img class="w-20 xs:w-24" src="{{asset('img/icons/Sass.png')}}" alt="Sass logo">
-                    <img class="w-20 xs:w-24 col-start-3" src="{{asset('img/icons/Livewire.png')}}" alt="livewire logo">
+                    <img class="w-20 xs:w-28 xl:w-24 2xl:w-28" src="{{asset('img/icons/Sass.png')}}" alt="Sass logo">
+                    <img class="w-20 xs:w-28 xl:w-24 2xl:w-28 col-start-3" src="{{asset('img/icons/Livewire.png')}}" alt="livewire logo">
                 </div>
             </div>
         </div>
