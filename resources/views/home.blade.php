@@ -103,11 +103,12 @@
                     <h2 class="techBg bg-center shadow-md shadow-gray-400 text-zinc-900 text-3xl 2xl:text-4xl 3xl:text-5xl font-presentation text-center lg:mb-3 xl:mb-5 lg:mt-[-5rem] bg-white p-5 rounded-lg">{{__('messages.progTools')}}</h2>
                 </div>
 
-                <div class="grid grid-rows-2 grid-cols-2 justify-items-center items-center">
-                    <img class="w-40 mr-5 sm:mr-0" src="{{asset('img/icons/Laravel.png')}}" alt="laravel logo">
-                    <img class="w-60" src="{{asset('img/icons/Tailwind.png')}}" alt="tailwind logo">
-                    <img class="w-44 self-start 2xl:self-auto" src="{{asset('img/icons/Sass.png')}}" alt="Sass logo">
-                    <img class="w-16 md:w-20 lg:w-16 xl:w-20 2xl:w-24 self-start 2xl:self-auto" src="{{asset('img/icons/Livewire.png')}}" alt="livewire logo">
+                <div class="grid grid-cols-2 gap-3 md:grid-cols-3 justify-items-center items-center">
+                    <img class="w-20 xs:w-24" src="{{asset('img/icons/Laravel.png')}}" alt="laravel logo">
+                    <img class="w-20 xs:w-24" src="{{asset('img/icons/Vuejs.png')}}" alt="vuejs logo">
+                    <img class="w-20 xs:w-24" src="{{asset('img/icons/Tailwindcss.png')}}" alt="tailwindcss logo">
+                    <img class="w-20 xs:w-24" src="{{asset('img/icons/Sass.png')}}" alt="Sass logo">
+                    <img class="w-20 xs:w-24 col-start-3" src="{{asset('img/icons/Livewire.png')}}" alt="livewire logo">
                 </div>
             </div>
         </div>
