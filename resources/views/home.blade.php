@@ -91,10 +91,10 @@
 
                 <div class="grid grid-cols-2 gap-3 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0">
                     <img class="w-20 xs:w-32" src="{{asset('img/icons/php.png')}}" alt="php logo">
-                    <img class="w-20 xs:w-28" src="{{asset('img/icons/html.png')}}" alt="html5 logo">
-                    <img class="w-20 xs:w-28" src="{{asset('img/icons/css3.png')}}" alt="css3 logo">
-                    <img class="w-20 xs:w-28" src="{{asset('img/icons/javascript.png')}}" alt="javascript logo">
-                    <img class="w-20 xs:w-28 col-start-3" src="{{asset('img/icons/sql.png')}}" alt="sql logo">
+                    <img class="w-20 xs:w-[7.6rem]" src="{{asset('img/icons/html.png')}}" alt="html5 logo">
+                    <img class="w-20 xs:w-[7.6rem]" src="{{asset('img/icons/css3.png')}}" alt="css3 logo">
+                    <img class="w-20 xs:w-[7.6rem]" src="{{asset('img/icons/javascript.png')}}" alt="javascript logo">
+                    <img class="w-20 xs:w-[7.6rem] col-start-3" src="{{asset('img/icons/sql.png')}}" alt="sql logo">
                 </div>
             </div>
 
@@ -103,9 +103,9 @@
                     <h2 class="techBg bg-center shadow-md shadow-gray-400 text-zinc-900 text-3xl 2xl:text-4xl 3xl:text-5xl font-presentation text-center mb-5 lg:mb-0 lg:mt-[-5rem] bg-white p-5 rounded-lg">{{__('messages.progTools')}}</h2>
                 </div>
 
-                <div class="grid grid-cols-2 gap-3 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0">
+                <div class="grid grid-cols-2 gap-x-4 gap-y-5 xl:gap-y-3 2xl:gap-y-5 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0 xl:mt-[.5rem] 2xl:mt-[.8rem]">
                     <img class="w-20 xs:w-28" src="{{asset('img/icons/Laravel.png')}}" alt="laravel logo">
-                    <img class="w-20 xs:w-24" src="{{asset('img/icons/Vuejs.png')}}" alt="vuejs logo">
+                    <img class="w-20 xs:w-[6.3rem] xl:w-[5.5rem] 2xl:w-[6.3rem]" src="{{asset('img/icons/Vuejs.png')}}" alt="vuejs logo">
                     <img class="w-20 xs:w-28" src="{{asset('img/icons/Tailwindcss.png')}}" alt="tailwindcss logo">
                     <img class="w-20 xs:w-28" src="{{asset('img/icons/Sass.png')}}" alt="Sass logo">
                     <img class="w-20 xs:w-28 col-start-3" src="{{asset('img/icons/Livewire.png')}}" alt="livewire logo">
