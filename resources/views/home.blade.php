@@ -89,12 +89,12 @@
                     <h2 class="techBg bg-center shadow-md shadow-gray-400 text-zinc-900 text-3xl 2xl:text-4xl 3xl:text-5xl font-presentation text-center mb-5 lg:mb-0 lg:mt-[-5rem] bg-white p-5 rounded-lg">{{__('messages.progLanguages')}}</h2>
                 </div>
 
-                <div class="grid grid-cols-2 gap-3 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0">
-                    <img class="w-20 xs:w-32" src="{{asset('img/icons/php.png')}}" alt="php logo">
-                    <img class="w-20 xs:w-[7.6rem]" src="{{asset('img/icons/html.png')}}" alt="html5 logo">
-                    <img class="w-20 xs:w-[7.6rem]" src="{{asset('img/icons/css3.png')}}" alt="css3 logo">
-                    <img class="w-20 xs:w-[7.6rem]" src="{{asset('img/icons/javascript.png')}}" alt="javascript logo">
-                    <img class="w-20 xs:w-[7.6rem] col-start-3" src="{{asset('img/icons/sql.png')}}" alt="sql logo">
+                <div class="grid grid-cols-2 ms:grid-cols-3 gap-2">
+                    <img class="w-20 h-20 object-cover" src="{{asset('img/icons/php.png')}}" />
+                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                    <img class="w-20 h-20 object-cover col-start-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
                 </div>
             </div>
 
@@ -103,12 +103,13 @@
                     <h2 class="techBg bg-center shadow-md shadow-gray-400 text-zinc-900 text-3xl 2xl:text-4xl 3xl:text-5xl font-presentation text-center mb-5 lg:mb-0 lg:mt-[-5rem] bg-white p-5 rounded-lg">{{__('messages.progTools')}}</h2>
                 </div>
 
-                <div class="grid grid-cols-2 gap-x-4 gap-y-5 xl:gap-y-3 2xl:gap-y-5 md:grid-cols-3 justify-items-center items-center mb-5 lg:mb-0 xl:mt-[.5rem] 2xl:mt-[.8rem]">
-                    <img class="w-20 xs:w-28" src="{{asset('img/icons/Laravel.png')}}" alt="laravel logo">
-                    <img class="w-20 xs:w-[6.3rem] xl:w-[5.5rem] 2xl:w-[6.3rem]" src="{{asset('img/icons/Vuejs.png')}}" alt="vuejs logo">
-                    <img class="w-20 xs:w-28" src="{{asset('img/icons/Tailwindcss.png')}}" alt="tailwindcss logo">
-                    <img class="w-20 xs:w-28" src="{{asset('img/icons/Sass.png')}}" alt="Sass logo">
-                    <img class="w-20 xs:w-28 col-start-3" src="{{asset('img/icons/Livewire.png')}}" alt="livewire logo">
+                <div class="grid grid-cols-2 ms:grid-cols-3 gap-2">
+                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
+                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg" />
+                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" />
                 </div>
             </div>
         </div>
@@ -121,6 +122,12 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center">
                 <div>
+                    <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 3 }})">
+                        <img class="rounded-lg hover:animate-pulse" src="{{asset('img/projects/PCStore.webp')}}" alt="project2 image">
+                    </button>
+                </div>
+
+                <div>
                     <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 1 }})">
                         <img class="rounded-lg hover:animate-pulse" src="{{asset('img/projects/CarDealership.webp')}}" alt="project1 image">
                     </button>
@@ -129,12 +136,6 @@
                 <div>
                     <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 2 }})">
                         <img class="rounded-lg hover:animate-pulse" src="{{asset('img/projects/PartyClub.webp')}}" alt="project2 image">
-                    </button>
-                </div>
-
-                <div>
-                    <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 3 }})">
-                        <img class="rounded-lg hover:animate-pulse" src="{{asset('img/projects/PCStore.webp')}}" alt="project2 image">
                     </button>
                 </div>
             </div>
