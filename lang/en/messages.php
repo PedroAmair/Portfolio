@@ -38,7 +38,8 @@ return [
      more options when customizing their reservation. Likewise, these services can also be modified.",
     'project3Content1' => "Web project about a website similar to Amazon/MercadoLibre/Bestbuy. 
      Developed using Laravel framework and adding Livewire, Tailwind CSS, Flowbite and native 
-     JavaScript. The website is still under development.",
+     JavaScript. The website also communicates with an external API to consume geo-location 
+     data that is preloaded into a form.",
     'webpageButton' => "Webpage",
     'repositoryButton' => "Repository",
     'copyright' => "All rights reserved",

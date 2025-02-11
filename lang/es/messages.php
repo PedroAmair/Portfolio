@@ -37,7 +37,8 @@ return [
     también se pueden modificar dichos servicios.",
     'project3Content1' => "Proyecto web sobre una página similar a Amazon/MercadoLibre/Bestbuy. 
      Desarrollado usando el framework Laravel y agregándole: Livewire, Tailwind CSS, Flowbite y 
-     JavaScript nativo. El sitio web sigue en desarrollo.",
+     JavaScript nativo. El sitio web también se comunica con una API externa para consumir datos 
+     de ubicación geográfica que se precargan en un formulario.",
     'webpageButton' => "Sitio Web",
     'repositoryButton' => "Repositorio",
     'copyright' => "Todos los derechos reservados",
