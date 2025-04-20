@@ -329,7 +329,7 @@
       
         <div class="flex justify-around pb-3">
           <div class="mb-6">
-            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="https://festejosmerina-f3b9f9cf6e47.herokuapp.com/" target="_blank">{{__('messages.webpageButton')}}</a>
+            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="web-festejos.up.railway.app" target="_blank">{{__('messages.webpageButton')}}</a>
           </div>
           <div class="mb-6">
             <a class="bg-blue-500 p-5 font-presentation text-lg rounded-full" href="https://github.com/PedroAmair/Pagina_festejos" target="_blank">{{__('messages.repositoryButton')}}</a>
@@ -491,7 +491,7 @@
       
         <div class="flex justify-around pb-3">
           <div class="mb-6">
-            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="https://awesomecomponents-e4d17a1d6680.herokuapp.com/" target="_blank">{{__('messages.webpageButton')}}</a>
+            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="https://awesomecomponents.mnz.dom.my.id/" target="_blank">{{__('messages.webpageButton')}}</a>
           </div>
           <div class="mb-6">
             <a class="bg-blue-500 p-5 font-presentation text-lg rounded-full" href=" https://github.com/PedroAmair/Pagina_comercio" target="_blank">{{__('messages.repositoryButton')}}</a>
