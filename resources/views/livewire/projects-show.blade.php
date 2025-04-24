@@ -159,7 +159,7 @@
       
         <div class="flex justify-around pb-3">
           <div class="mb-6">
-            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="https://proyectoautos.up.railway.app/" target="_blank">{{__('messages.webpageButton')}}</a>
+            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="https://polar-springs-50867-129959116230.herokuapp.com/" target="_blank">{{__('messages.webpageButton')}}</a>
           </div>
           <div class="mb-6">
             <a class="bg-blue-500 p-5 font-presentation text-lg rounded-full" href="https://github.com/PedroAmair/Pagina_autos" target="_blank">{{__('messages.repositoryButton')}}</a>
@@ -491,7 +491,7 @@
       
         <div class="flex justify-around pb-3">
           <div class="mb-6">
-            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="https://awesomecomponents.mnz.dom.my.id/" target="_blank">{{__('messages.webpageButton')}}</a>
+            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="https://ancient-wave-28600-daae42fca558.herokuapp.com/" target="_blank">{{__('messages.webpageButton')}}</a>
           </div>
           <div class="mb-6">
             <a class="bg-blue-500 p-5 font-presentation text-lg rounded-full" href=" https://github.com/PedroAmair/Pagina_comercio" target="_blank">{{__('messages.repositoryButton')}}</a>
