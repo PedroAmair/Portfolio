@@ -329,7 +329,7 @@
       
         <div class="flex justify-around pb-3">
           <div class="mb-6">
-            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="web-festejos.up.railway.app" target="_blank">{{__('messages.webpageButton')}}</a>
+            <a class="bg-green-500 py-5 px-7 font-presentation text-lg rounded-full" href="https://web-festejos.up.railway.app/" target="_blank">{{__('messages.webpageButton')}}</a>
           </div>
           <div class="mb-6">
             <a class="bg-blue-500 p-5 font-presentation text-lg rounded-full" href="https://github.com/PedroAmair/Pagina_festejos" target="_blank">{{__('messages.repositoryButton')}}</a>
