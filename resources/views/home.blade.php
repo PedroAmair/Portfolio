@@ -139,7 +139,7 @@
                     </button>
                 </div>
 
-                <div class="p-5 bg-gray-300 rounded-t-lg col-start-2">
+                <div class="p-5 bg-gray-300 rounded-t-lg md:col-start-2">
                     <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 2 }})">
                         <img class="shadow-xl rounded-lg hover:animate-pulse" src="{{asset('img/projects/PartyClub.webp')}}" alt="project2 image">
                     </button>
