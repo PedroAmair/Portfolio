@@ -42,6 +42,14 @@ return [
     'webpageButton' => "Sitio Web",
     'repositoryButton' => "Repositorio",
     'copyright' => "Todos los derechos reservados",
+    'project4Content1' => "Tienda en línea para venta de productos dulces y salados. El diseño de
+      la página principal está personalizado en base a los gustos del cliente. Cuenta con varias secciones, 
+      entre ellas: ¿quiénes somos? ubicación, catálogo, tienda virtual, sucursales, blog y cursos de repostería.",
+    'project4Content2' => "El sitio web fue desarrollado con Wordpress. El tema es totalmente personalizado
+      y se han creado complementos personalizados. Se utilizaron tipos de publicaciones personalizadas, y el
+      complemento de campos personalizados avanzados para poder tener un portal web hecho a la medida. El proyecto
+      está en desarrollo y próximamente será llevado a producción.",
+    'webpageButton' => "Sitio Web",
 ]
 
 ?>

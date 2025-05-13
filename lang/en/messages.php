@@ -43,6 +43,13 @@ return [
     'webpageButton' => "Webpage",
     'repositoryButton' => "Repository",
     'copyright' => "All rights reserved",
+    'project4Content1' => "Online store for the sale of sweet and savory products. The main page design
+     is customized based on the client preferences. It has several sections, including: who we are?, location,
+     catalog, online store, branches, blog and  pastry courses.",
+    'project4Content2' => "The website was developed with Wordpress. The theme is fully customized and custom 
+     plugins have been created. Custom post types and advanced custom fields add-on were used to be able to have
+     a tailor-made web portal. The project is under development and will soon be taken into production.",
+    'webpageButton' => "Webpage",
 ]
 
 ?>
