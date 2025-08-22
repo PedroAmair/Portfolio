@@ -120,28 +120,29 @@
             <div class="bg-gray-300 text-zinc-900 text-center font-presentation p-5 text-2xl md:text-3xl 2xl:text-4xl 3xl:text-5xl w-4/5 md:w-2/3 xl:w-1/3 mx-auto rounded-lg">
                 <h2>{{__('messages.projects')}}</h2>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center">
-                <div class="p-5 bg-gray-300 rounded-t-lg">
-                    <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 4 }})">
-                        <img class="shadow-xl rounded-lg hover:animate-pulse" src="{{asset('img/projects/hakunamatata.webp')}}" alt="project4 image">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+                <div class="containere w-11/12 md:w-full">
+                    <button class="card" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 4 }})">
+                        <img src="{{asset('img/projects/hakunamatata.webp')}}" alt="project4 image">
                     </button>
                 </div>
 
-                <div class="p-5 bg-gray-300 rounded-t-lg">
-                    <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 3 }})">
-                        <img class="shadow-xl rounded-lg hover:animate-pulse" src="{{asset('img/projects/PCStore.webp')}}" alt="project3 image">
+                <div class="containere w-11/12 md:w-full">
+                    <button class="card" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 3 }})">
+                        <img src="{{asset('img/projects/PCStore.webp')}}" alt="project3 image">
                     </button>
                 </div>
 
-                <div class="p-5 bg-gray-300 rounded-t-lg">
-                    <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 1 }})">
-                        <img class="shadow-xl rounded-lg hover:animate-pulse" src="{{asset('img/projects/CarDealership.webp')}}" alt="project1 image">
+                <div class="containere w-11/12 md:w-full">
+                    <button class="card" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 1 }})">
+                        <img src="{{asset('img/projects/CarDealership.webp')}}" alt="project1 image">
                     </button>
                 </div>
 
-                <div class="p-5 bg-gray-300 rounded-t-lg md:col-start-2">
-                    <button onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 2 }})">
-                        <img class="shadow-xl rounded-lg hover:animate-pulse" src="{{asset('img/projects/PartyClub.webp')}}" alt="project2 image">
+                <div class="containere w-11/12 md:w-full lg:col-start-2">
+                    <button class="card" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 2 }})">
+                        <img src="{{asset('img/projects/PartyClub.webp')}}" alt="project2 image">
                     </button>
                 </div>
             </div>
