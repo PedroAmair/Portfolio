@@ -124,25 +124,25 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
                 <div class="containere w-11/12 md:w-full">
                     <button class="card" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 4 }})">
-                        <img class="rounded-lg" src="{{asset('img/projects/hakunamatata.webp')}}" alt="project4 image">
+                        <img class="border-2 border-double p-2" src="{{asset('img/projects/hakunamatata.webp')}}" alt="project4 image">
                     </button>
                 </div>
 
                 <div class="containere w-11/12 md:w-full">
                     <button class="card" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 3 }})">
-                        <img class="rounded-lg" src="{{asset('img/projects/PCStore.webp')}}" alt="project3 image">
+                        <img class="border-2 border-double p-2" src="{{asset('img/projects/PCStore.webp')}}" alt="project3 image">
                     </button>
                 </div>
 
                 <div class="containere w-11/12 md:w-full">
                     <button class="card" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 1 }})">
-                        <img class="rounded-lg" src="{{asset('img/projects/CarDealership.webp')}}" alt="project1 image">
+                        <img class="border-2 border-double p-2" src="{{asset('img/projects/CarDealership.webp')}}" alt="project1 image">
                     </button>
                 </div>
 
                 <div class="containere w-11/12 md:w-full lg:col-start-2">
                     <button class="card" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 2 }})">
-                        <img class="rounded-lg" src="{{asset('img/projects/PartyClub.webp')}}" alt="project2 image">
+                        <img class="border-2 border-double p-2" src="{{asset('img/projects/PartyClub.webp')}}" alt="project2 image">
                     </button>
                 </div>
             </div>
