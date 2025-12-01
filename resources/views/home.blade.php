@@ -123,6 +123,23 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
                 <div class="containere w-11/12 md:w-full">
+                    <button class="card relative" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 5 }})" aria-label="Ver proyecto">
+                        <!-- Capa de texto visible por defecto -->
+                        <div class="card-face text-layer absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
+                            <div class="text-center">
+                                <h3 class="text-lg font-semibold mb-1">{{__('messages.project5Title')}}</h3>
+                                <p class="text-sm">{{__('messages.project5SubTitle')}}</p>
+                            </div>
+                        </div>
+
+                        <!-- Capa de imagen oculta por defecto -->
+                        <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
+                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/fanal.webp') }}" alt="project5 image">
+                        </div>
+                    </button>
+                </div>
+
+                <div class="containere w-11/12 md:w-full">
                     <button class="card relative" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 4 }})" aria-label="Ver proyecto">
                         <!-- Capa de texto visible por defecto -->
                         <div class="card-face text-layer absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
@@ -134,7 +151,7 @@
 
                         <!-- Capa de imagen oculta por defecto -->
                         <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
-                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/hakunamatata.webp') }}" alt="project3 image">
+                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/hakunamatata.webp') }}" alt="project4 image">
                         </div>
                     </button>
                 </div>
@@ -151,7 +168,7 @@
 
                         <!-- Capa de imagen oculta por defecto -->
                         <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
-                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/PCStore.webp') }}" alt="project1 image">
+                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/PCStore.webp') }}" alt="project3 image">
                         </div>
                     </button>
                 </div>
@@ -168,7 +185,7 @@
 
                         <!-- Capa de imagen oculta por defecto -->
                         <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
-                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/CarDealership.webp') }}" alt="project2 image">
+                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/CarDealership.webp') }}" alt="project1 image">
                         </div>
                     </button>
                 </div>

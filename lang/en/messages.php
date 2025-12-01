@@ -20,6 +20,8 @@ return [
     'project3SubTitle' => "It has PHP scripts embedded in the HTML.",
     'project4Title' => "Project carried out with POO",
     'project4SubTitle' => "Developed with pure programming, without frameworks.",
+    'project5Title' => "Project created in Wordpress",
+    'project5SubTitle' => "Developed with Elementor.",
     'project1Content1' => "Web project about a car dealership. 
      It was done using HTML5, CSS3 JavaScript and pure PHP, 
      without using any framework.",
@@ -48,6 +50,12 @@ return [
      Developed using Laravel framework and adding Livewire, Tailwind CSS, Flowbite and native 
      JavaScript. The website also communicates with an external API to consume geo-location 
      data that is preloaded into a form.",
+    'project5Content1' => "Official website of the National Liquor Factory of Costa Rica (FANAL). 
+      The website project displays various informative details such as the company's history, the products
+      they offer, the procedures that associates must follow to request liquors, the company's transparency,
+      and much more. It was developed in WordPress using Elementor for almost the entire project. The only 
+      sections without Elementor are the header and footer. Several plugins were also installed and configured
+      to expand the functionality of the website, thereby enriching the user experience during navigation.",
     'webpageButton' => "Webpage",
     'repositoryButton' => "Repository",
     'copyright' => "All rights reserved",

@@ -20,6 +20,8 @@ return [
     'project3SubTitle' => "Tiene incrustados scripts de PHP en HTML",
     'project4Title' => "Proyecto realizado con POO",
     'project4SubTitle' => "Realizado con programación pura, sin frameworks.",
+    'project5Title' => "Proyecto realizado en Wordpress",
+    'project5SubTitle' => "Desarrollado con Elementor.",
     'project1Content1' => "Proyecto web sobre un concesionario 
      de autos. Se realizó usando HTML5, CSS3 JavaScript Y PHP puro,
      sin usar ningún framework.",
@@ -47,6 +49,13 @@ return [
      Desarrollado usando el framework Laravel y agregándole: Livewire, Tailwind CSS, Flowbite y 
      JavaScript nativo. El sitio web también se comunica con una API externa para consumir datos 
      de ubicación geográfica que se precargan en un formulario.",
+    'project5Content1' => "Web oficial de la Fábrica Nacional de Licores de Costa Rica (FANAL). 
+      En el proyecto web se muestran varios detalles informativos como la historia de la empresa, 
+      los productos que ofrecen, los trámites que deben hacer los asociados para solicitar los licores, 
+      la transparencia de la empresa y mucho más. Fue desarrollado en Wordpress utilizando Elementor 
+      en casi la totalidad del proyecto. Las únicas secciones sin Elementor son la cabecera y el pie 
+      de página. También se instalaron y configuraron varios plugins para expandir la funcionalidad del 
+      sitio web, y de esa forma enriquecer la experiencia de usuario durante la navegación.",
     'webpageButton' => "Sitio Web",
     'repositoryButton' => "Repositorio",
     'copyright' => "Todos los derechos reservados",
