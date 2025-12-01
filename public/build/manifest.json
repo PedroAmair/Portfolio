@@ -7,17 +7,21 @@
     "file": "assets/programming-bnMdnKsh.webp",
     "src": "public/img/programming.webp"
   },
+  "public/img/projects/fondo-proyecto.png": {
+    "file": "assets/fondo-proyecto-Z2hQ9NAt.png",
+    "src": "public/img/projects/fondo-proyecto.png"
+  },
   "public/img/techBg.webp": {
     "file": "assets/techBg-Xi9MI-77.webp",
     "src": "public/img/techBg.webp"
   },
   "resources/css/app.css": {
-    "file": "assets/app-FDklBAMp.css",
+    "file": "assets/app-AEh7zqq3.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
   "resources/css/styles.css": {
-    "file": "assets/styles-30mB0ohP.css",
+    "file": "assets/styles-bbmCDyDH.css",
     "isEntry": true,
     "src": "resources/css/styles.css"
   },

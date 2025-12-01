@@ -38,10 +38,10 @@
     background-image: url('/public/img/techBg.webp');
 }
 
-.containere {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.containere { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .card {
@@ -53,9 +53,67 @@
     overflow: hidden;
     border-radius: 15px;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
+    width: 40rem;
+    height: 17rem;
+    box-shadow: 0 2px 6px rgba(209,213,219,0.15);
 }
 
-.card::before {
+.card:hover {
+    box-shadow: 0 10px 20px rgba(209,213,219,0.35);
+}
+
+.card-face {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.text-layer {
+     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    z-index: 2;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, rgba(209,213,219,0) 0%, rgba(209,213,219,0) 60%), #1f1f1f;
+    background-image: url('../../public/img/projects/fondo-proyecto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.image-layer {
+    z-index: 4;
+    opacity: 0;
+    transform: scale(1.05);
+}
+
+.card:hover .text-layer {
+    opacity: 0;
+    transform: translateY(-6px);
+}
+
+.card:hover .image-layer {
+    opacity: 1;
+    transform: scale(1);
+}
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/*.card::before {
     content: '';
     position: absolute;
     top: -50%;
@@ -66,7 +124,7 @@
         0deg, 
         transparent, 
         transparent 30%, 
-        rgba(12,183,242,0.3)
+        rgba(211,211,211,0.3)
     );
     transform: rotate(-45deg);
     transition: all 0.5s ease;
@@ -75,14 +133,10 @@
 
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(12,183,242,0.5);
+    box-shadow: 0 0 20px rgba(211,211,211,0.5);
 }
 
 .card:hover::before {
     opacity: 1;
     transform: rotate(-45deg) translateY(100%);
-}
-
-.card img {
-    border-radius: 15px;
-}
+}*/
