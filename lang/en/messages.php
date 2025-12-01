@@ -21,7 +21,7 @@ return [
     'project4Title' => "Project carried out with POO",
     'project4SubTitle' => "Developed with pure programming, without frameworks.",
     'project5Title' => "Project created in Wordpress",
-    'project5SubTitle' => "Developed with Elementor.",
+    'project5SubTitle' => "Developed with Elementor and Elementor Pro.",
     'project1Content1' => "Web project about a car dealership. 
      It was done using HTML5, CSS3 JavaScript and pure PHP, 
      without using any framework.",

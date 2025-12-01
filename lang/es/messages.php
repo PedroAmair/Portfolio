@@ -21,7 +21,7 @@ return [
     'project4Title' => "Proyecto realizado con POO",
     'project4SubTitle' => "Realizado con programación pura, sin frameworks.",
     'project5Title' => "Proyecto realizado en Wordpress",
-    'project5SubTitle' => "Desarrollado con Elementor.",
+    'project5SubTitle' => "Desarrollado con Elementor y Elementor Pro.",
     'project1Content1' => "Proyecto web sobre un concesionario 
      de autos. Se realizó usando HTML5, CSS3 JavaScript Y PHP puro,
      sin usar ningún framework.",
