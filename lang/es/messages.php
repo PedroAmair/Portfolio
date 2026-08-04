@@ -22,6 +22,8 @@ return [
     'project4SubTitle' => "Realizado con programación pura, sin frameworks.",
     'project5Title' => "Proyecto realizado en Wordpress",
     'project5SubTitle' => "Desarrollado con Elementor y Elementor Pro.",
+    'project6Title' => "Proyecto realizado en Wordpress",
+    'project6SubTitle' => "Desarrollado con programación de plantillas y plugins.",
     'project1Content1' => "Proyecto web sobre un concesionario 
      de autos. Se realizó usando HTML5, CSS3 JavaScript Y PHP puro,
      sin usar ningún framework.",
@@ -56,6 +58,16 @@ return [
       en casi la totalidad del proyecto. Las únicas secciones sin Elementor son la cabecera y el pie 
       de página. También se instalaron y configuraron varios plugins para expandir la funcionalidad del 
       sitio web, y de esa forma enriquecer la experiencia de usuario durante la navegación.",
+    'project6Content1' => "Página que sirve para que proveedores de servicios de limpieza se pongan en 
+     contacto con clientes interesados en limpiar sus hogares, locales comerciales o empresas. El sitio 
+     web tiene todo un sistema hecho a la medida para que se puedan hacer solicitudes de servicios. Los 
+     proveedores podrán postular sus ofertas de servicios en cada solicitud y los clientes podrán decidir 
+     con cual proveedor de servicios trabajar. La plataforma también tiene un sistema de reputación 
+     interactivo, una pasarela de pagos para adquirir membresías, y un histórico de transacciones para 
+     cada usuario; de esa forma podrán tener el control total de todo lo que han hecho en la plataforma.",
+    'project6Content2' => "Este proyecto fue creado, en wordpress, utilizando programación y jerarquía de 
+      plantillas. La pasarela de pagos se implementó utilizando el plugin de Memberpress en unión con el 
+      de pronamic pay para poder procesar los pagos.",  
     'webpageButton' => "Sitio Web",
     'repositoryButton' => "Repositorio",
     'copyright' => "Todos los derechos reservados",

@@ -22,6 +22,8 @@ return [
     'project4SubTitle' => "Developed with pure programming, without frameworks.",
     'project5Title' => "Project created in Wordpress",
     'project5SubTitle' => "Developed with Elementor and Elementor Pro.",
+    'project6Title' => "Project created in Wordpress",
+    'project6SubTitle' => "Developed with template programming and plugins.",
     'project1Content1' => "Web project about a car dealership. 
      It was done using HTML5, CSS3 JavaScript and pure PHP, 
      without using any framework.",
@@ -65,7 +67,15 @@ return [
     'project4Content2' => "The website was developed with Wordpress. The theme is fully customized and custom 
      plugins have been created. Custom post types and advanced custom fields add-on were used to be able to have
      a tailor-made web portal. The project is under development and will soon be taken into production.",
-    'webpageButton' => "Webpage",
+    'project6Content1' => "A website that connects cleaning service providers with customers interested in having 
+     their homes, commercial spaces, or businesses cleaned. The website features a fully customized system for 
+     submitting service requests. Service providers can submit their service offers in response to each request, 
+     and customers can decide which service provider to work with. The platform also includes an interactive 
+     reputation system, a payment gateway for purchasing memberships, and a transaction history for each user, 
+     allowing them to maintain full control over all their activities on the platform.",
+    'project6Content2' => "This project was built using WordPress, leveraging programming and a template hierarchy. 
+     The payment gateway was implemented using the MemberPress plugin in conjunction with the Pronamic Pay plugin 
+     to process payments.",
 ]
 
 ?>
