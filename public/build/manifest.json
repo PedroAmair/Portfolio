@@ -34,5 +34,10 @@
     "file": "assets/app-AsZ8CJl3.js",
     "isEntry": true,
     "src": "resources/js/app.js"
+  },
+  "resources/js/paginadorSinMover.js": {
+    "file": "assets/paginadorSinMover-2tcx1hzI.js",
+    "isEntry": true,
+    "src": "resources/js/paginadorSinMover.js"
   }
 }
