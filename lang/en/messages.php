@@ -24,6 +24,8 @@ return [
     'project5SubTitle' => "Developed with Elementor and Elementor Pro.",
     'project6Title' => "Project created in Wordpress",
     'project6SubTitle' => "Developed with template programming and plugins.",
+    'project7Title' => "Project created in Wordpress",
+    'project7SubTitle' => "Developed with Elementor Pro and plugins.",
     'project1Content1' => "Web project about a car dealership. 
      It was done using HTML5, CSS3 JavaScript and pure PHP, 
      without using any framework.",
@@ -76,6 +78,13 @@ return [
     'project6Content2' => "This project was built using WordPress, leveraging programming and a template hierarchy. 
      The payment gateway was implemented using the MemberPress plugin in conjunction with the Pronamic Pay plugin 
      to process payments.",
+    'project7Content1' => "Official website of the Costa Rican Fire Department (BCBCR). This project replaced the 
+     institution’s previous website. The website features various sections developed for each of the sub-departments 
+     that make up the BCBCR.",
+    'project7Content2' => "This project was designed using Elementor Pro and several plugins to expand its functionality, 
+     based on all the requirements specified by the client. In the various sections of the site, we utilized a wide range of 
+     Elementor Pro features—including some that are not commonly used—all with the clear goal of presenting the content in a 
+     highly dynamic and eye-catching way.",
 ]
 
 ?>

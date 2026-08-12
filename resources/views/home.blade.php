@@ -115,114 +115,69 @@
         </div>
     </main>
 
+@php
+    $projects = [
+    ['id' => 7, 'title' => 'project7Title', 'subtitle' => 'project7SubTitle', 'image' => 'img/projects/bomberos.webp'],
+    ['id' => 6, 'title' => 'project6Title', 'subtitle' => 'project6SubTitle', 'image' => 'img/projects/zackServices.webp'],
+    ['id' => 5, 'title' => 'project5Title', 'subtitle' => 'project5SubTitle', 'image' => 'img/projects/fanal.webp'],
+    ['id' => 4, 'title' => 'project1Title', 'subtitle' => 'project1SubTitle', 'image' => 'img/projects/hakunamatata.webp'],
+    ['id' => 3, 'title' => 'project2Title', 'subtitle' => 'project2SubTitle', 'image' => 'img/projects/PCStore.webp'],
+    ['id' => 1, 'title' => 'project3Title', 'subtitle' => 'project3SubTitle', 'image' => 'img/projects/CarDealership.webp'],
+    ['id' => 2, 'title' => 'project4Title', 'subtitle' => 'project4SubTitle', 'image' => 'img/projects/PartyClub.webp'],
+    ];
+
+    $pageSize = 3;
+    $currentPage = max(1, intval(request()->get('page', 1)));
+    $totalItems = count($projects);
+    $totalPages = (int) ceil($totalItems / $pageSize);
+
+    if ($currentPage > $totalPages) {
+        $currentPage = $totalPages;
+    }
+
+    $start = ($currentPage - 1) * $pageSize;
+    $pagedProjects = array_slice($projects, $start, $pageSize);
+@endphp
+
     <section class="mb-28">
         <div class="flex flex-col gap-16">
             <div class="bg-gray-300 text-zinc-900 text-center font-presentation p-5 text-2xl md:text-3xl 2xl:text-4xl 3xl:text-5xl w-4/5 md:w-2/3 xl:w-1/3 mx-auto rounded-lg">
                 <h2>{{__('messages.projects')}}</h2>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
-                <div class="containere w-11/12 md:w-full">
-                    <button class="card relative" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 6 }})" aria-label="Ver proyecto">
+            <div id="list-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+                 @foreach ($pagedProjects as $p)
+                    <div class="containere w-11/12 md:w-full">
+                    <button class="card relative" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': {{ $p['id'] }} }})" aria-label="Ver proyecto">
                         <!-- Capa de texto visible por defecto -->
                         <div class="card-face text-layer absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
-                            <div class="text-center">
-                                <h3 class="text-lg font-semibold mb-1">{{__('messages.project6Title')}}</h3>
-                                <p class="text-sm">{{__('messages.project6SubTitle')}}</p>
-                            </div>
+                        <div class="text-center">
+                            <h3 class="text-lg font-semibold mb-1">{{ __('messages.' . $p['title']) }}</h3>
+                            <p class="text-sm">{{ __('messages.' . $p['subtitle']) }}</p>
                         </div>
-
+                        </div>
                         <!-- Capa de imagen oculta por defecto -->
                         <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
-                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/zackServices.webp') }}" alt="project6 image">
+                        <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset($p['image']) }}" alt="project{{ $p['id'] }} image">
                         </div>
                     </button>
-                </div>
+                    </div>
+                @endforeach
+            </div>
 
-                <div class="containere w-11/12 md:w-full">
-                    <button class="card relative" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 5 }})" aria-label="Ver proyecto">
-                        <!-- Capa de texto visible por defecto -->
-                        <div class="card-face text-layer absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
-                            <div class="text-center">
-                                <h3 class="text-lg font-semibold mb-1">{{__('messages.project5Title')}}</h3>
-                                <p class="text-sm">{{__('messages.project5SubTitle')}}</p>
-                            </div>
-                        </div>
+            <!-- Paginación simple -->
+            <div id="paginacion" class="flex justify-center space-x-2">
+                @if ($totalPages > 1)
+                    <a href="?page={{ max(1, $currentPage - 1) }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white" aria-label="Página anterior" style="opacity: {{ $currentPage == 1 ? 0.5 : 1 }}; pointer-events: {{ $currentPage == 1 ? 'none' : 'auto' }}"> Anterior </a>
 
-                        <!-- Capa de imagen oculta por defecto -->
-                        <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
-                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/fanal.webp') }}" alt="project5 image">
-                        </div>
-                    </button>
-                </div>
+                    @for ($i = 1; $i <= $totalPages; $i++)
+                        <a href="?page={{ $i }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white">
+                            {{ $i }}
+                        </a>
+                    @endfor
 
-                <div class="containere w-11/12 md:w-full">
-                    <button class="card relative" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 4 }})" aria-label="Ver proyecto">
-                        <!-- Capa de texto visible por defecto -->
-                        <div class="card-face text-layer absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
-                            <div class="text-center">
-                                <h3 class="text-lg font-semibold mb-1">{{__('messages.project1Title')}}</h3>
-                                <p class="text-sm">{{__('messages.project1SubTitle')}}</p>
-                            </div>
-                        </div>
-
-                        <!-- Capa de imagen oculta por defecto -->
-                        <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
-                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/hakunamatata.webp') }}" alt="project4 image">
-                        </div>
-                    </button>
-                </div>
-
-                <div class="containere w-11/12 md:w-full">
-                    <button class="card relative" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 3 }})" aria-label="Ver proyecto">
-                        <!-- Capa de texto visible por defecto -->
-                        <div class="card-face text-layer absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
-                            <div class="text-center">
-                                <h3 class="text-lg font-semibold mb-1">{{__('messages.project2Title')}}</h3>
-                                <p class="text-sm">{{__('messages.project2SubTitle')}}</p>
-                            </div>
-                        </div>
-
-                        <!-- Capa de imagen oculta por defecto -->
-                        <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
-                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/PCStore.webp') }}" alt="project3 image">
-                        </div>
-                    </button>
-                </div>
-
-                <div class="containere w-11/12 md:w-full">
-                    <button class="card relative" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 1 }})" aria-label="Ver proyecto">
-                        <!-- Capa de texto visible por defecto -->
-                        <div class="card-face text-layer absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
-                            <div class="text-center">
-                                <h3 class="text-lg font-semibold mb-1">{{__('messages.project3Title')}}</h3>
-                                <p class="text-sm">{{__('messages.project3SubTitle')}}</p>
-                            </div>
-                        </div>
-
-                        <!-- Capa de imagen oculta por defecto -->
-                        <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
-                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/CarDealership.webp') }}" alt="project1 image">
-                        </div>
-                    </button>
-                </div>
-
-                <div class="containere w-11/12 md:w-full">
-                    <button class="card relative" onclick="Livewire.dispatch('openModal', { component: 'projects-show', arguments: { 'project': 2 }})" aria-label="Ver proyecto">
-                        <!-- Capa de texto visible por defecto -->
-                        <div class="card-face text-layer absolute inset-0 flex items-center justify-center p-4 pointer-events-none">
-                            <div class="text-center">
-                                <h3 class="text-lg font-semibold mb-1">{{__('messages.project4Title')}}</h3>
-                                <p class="text-sm">{{__('messages.project4SubTitle')}}</p>
-                            </div>
-                        </div>
-
-                        <!-- Capa de imagen oculta por defecto -->
-                        <div class="card-face image-layer absolute inset-0 opacity-0 pointer-events-none">
-                            <img class="w-full h-full object-cover border-2 border-double p-2 border-gray-300" src="{{ asset('img/projects/PartyClub.webp') }}" alt="project2 image">
-                        </div>
-                    </button>
-                </div>
+                    <a href="?page={{ min($totalPages, $currentPage + 1) }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white" aria-label="Página siguiente" style="opacity: {{ $currentPage == $totalPages ? 0.5 : 1 }}; pointer-events: {{ $currentPage == $totalPages ? 'none' : 'auto' }}"> Siguiente </a>
+                @endif
             </div>
         </div>
     </section>

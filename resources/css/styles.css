@@ -41,7 +41,7 @@
 .containere { 
     display: flex; 
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
 }
 
 .card {
@@ -112,3 +112,9 @@
     object-fit: cover;
     border-radius: 15px;
 }
+
+.paginacion-activa {
+  background: #000; /* negro */
+  color: #fff;
+}
+

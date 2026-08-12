@@ -24,6 +24,8 @@ return [
     'project5SubTitle' => "Desarrollado con Elementor y Elementor Pro.",
     'project6Title' => "Proyecto realizado en Wordpress",
     'project6SubTitle' => "Desarrollado con programación de plantillas y plugins.",
+    'project7Title' => "Proyecto realizado en Wordpress",
+    'project7SubTitle' => "Desarrollado con Elementor Pro y plugins.",
     'project1Content1' => "Proyecto web sobre un concesionario 
      de autos. Se realizó usando HTML5, CSS3 JavaScript Y PHP puro,
      sin usar ningún framework.",
@@ -78,7 +80,13 @@ return [
       y se han creado complementos personalizados. Se utilizaron tipos de publicaciones personalizadas, y el
       complemento de campos personalizados avanzados para poder tener un portal web hecho a la medida. El proyecto
       está en desarrollo y próximamente será llevado a producción.",
-    'webpageButton' => "Sitio Web",
+    'project7Content1' => "Sitio web oficial del Benemérito Cuerpo de Bomberos de Costa Rica. Este proyecto es el 
+     que vino a sustituir al sitio web anterior de la institución. En dicho sitio web se pueden conseguir diversas 
+     secciones dearrolladas para cada uno de los sub-deparamentos que conforman al BCBCR.",
+    'project7Content2' => "Este proyecto fue diseñado utilizando elementor Pro y varios plugins para expandir la 
+     funcionalidad, en base a todos los requerimientos solicitados por el cliente. En las diversas secciones que 
+     existen se utilizaron distintas y variadas funcionalidades de Elementor Pro, incluso aquellas que no son muy 
+     habituales, todo con el firme propósito de presentar el contenido de forma muy dinámica y llamativa.",
 ]
 
 ?>
