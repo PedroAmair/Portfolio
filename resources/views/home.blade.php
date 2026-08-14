@@ -90,11 +90,11 @@
                 </div>
 
                 <div class="grid grid-cols-3 gap-2">
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="{{asset('img/icons/php.png')}}" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover col-start-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="{{asset('img/icons/php.png')}}" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain col-start-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
                 </div>
             </div>
 
@@ -104,12 +104,12 @@
                 </div>
 
                 <div class="grid grid-cols-3 gap-2">
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" />
                 </div>
             </div>
         </div>
