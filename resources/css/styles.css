@@ -113,8 +113,11 @@
     border-radius: 15px;
 }
 
-.paginacion-activa {
-  background: #000; /* negro */
-  color: #fff;
+@media(min-width: 1024px) {
+    .paginacion-activa,
+    .paginacion-activa:hover {
+        background: #000; /* negro */
+        color: #fff;
+    }
 }
 

@@ -90,11 +90,11 @@
                 </div>
 
                 <div class="grid grid-cols-3 gap-2">
-                    <img class="w-20 h-20 object-cover" src="{{asset('img/icons/php.png')}}" />
-                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                    <img class="w-20 h-20 object-cover col-start-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="{{asset('img/icons/php.png')}}" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover col-start-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
                 </div>
             </div>
 
@@ -104,12 +104,12 @@
                 </div>
 
                 <div class="grid grid-cols-3 gap-2">
-                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
-                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
-                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
-                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg" />
-                    <img class="w-20 h-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg" />
+                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-cover" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" />
                 </div>
             </div>
         </div>
@@ -168,15 +168,15 @@
             <!-- Paginación simple -->
             <div id="paginacion" class="flex justify-center space-x-2">
                 @if ($totalPages > 1)
-                    <a href="?page={{ max(1, $currentPage - 1) }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white" aria-label="Página anterior" style="opacity: {{ $currentPage == 1 ? 0.5 : 1 }}; pointer-events: {{ $currentPage == 1 ? 'none' : 'auto' }}"> Anterior </a>
+                    <a href="?page={{ max(1, $currentPage - 1) }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white hover:text-black" aria-label="Página anterior" style="opacity: {{ $currentPage == 1 ? 0.5 : 1 }}; pointer-events: {{ $currentPage == 1 ? 'none' : 'auto' }}"> Anterior </a>
 
                     @for ($i = 1; $i <= $totalPages; $i++)
-                        <a href="?page={{ $i }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white">
+                        <a href="?page={{ $i }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white hover:text-black">
                             {{ $i }}
                         </a>
                     @endfor
 
-                    <a href="?page={{ min($totalPages, $currentPage + 1) }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white" aria-label="Página siguiente" style="opacity: {{ $currentPage == $totalPages ? 0.5 : 1 }}; pointer-events: {{ $currentPage == $totalPages ? 'none' : 'auto' }}"> Siguiente </a>
+                    <a href="?page={{ min($totalPages, $currentPage + 1) }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white hover:text-black" aria-label="Página siguiente" style="opacity: {{ $currentPage == $totalPages ? 0.5 : 1 }}; pointer-events: {{ $currentPage == $totalPages ? 'none' : 'auto' }}"> Siguiente </a>
                 @endif
             </div>
         </div>
