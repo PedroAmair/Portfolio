@@ -89,12 +89,12 @@
                     <h2 class="techBg bg-center shadow-md shadow-gray-400 text-zinc-900 text-3xl 2xl:text-4xl 3xl:text-5xl font-presentation text-center mb-5 lg:mb-0 lg:mt-[-5rem] bg-white p-5 rounded-lg">{{__('messages.progLanguages')}}</h2>
                 </div>
 
-                <div class="grid grid-cols-3 gap-2">
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="{{asset('img/icons/php.png')}}" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain col-start-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+                <div class="grid grid-cols-3 gap-2 my-4">
+                    <img class="h-20 w-20 object-contain self-center justify-self-center" src="{{asset('img/icons/php.png')}}" />
+                    <img class="h-16 w-16 object-contain self-center justify-self-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                    <img class="h-16 w-16 object-contain self-center justify-self-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img class="h-16 w-16 object-contain self-center justify-self-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                    <img class="h-16 w-16 object-contain self-center justify-self-center col-start-3" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
                 </div>
             </div>
 
@@ -103,13 +103,13 @@
                     <h2 class="techBg bg-center shadow-md shadow-gray-400 text-zinc-900 text-3xl 2xl:text-4xl 3xl:text-5xl font-presentation text-center mb-5 lg:mb-0 lg:mt-[-5rem] bg-white p-5 rounded-lg">{{__('messages.progTools')}}</h2>
                 </div>
 
-                <div class="grid grid-cols-3 gap-2">
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg" />
-                    <img class="w-20 h-20 lg:h-16 lg:w-16 xl: h-20 xl:w-20 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" />
+                <div class="grid grid-cols-3 gap-4 my-4">
+                    <img class="w-16 h-16 object-contain self-center justify-self-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+                    <img class="w-16 h-16 object-contain self-center justify-self-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+                    <img class="w-16 h-16 object-contain self-center justify-self-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                    <img class="w-16 h-16 object-contain self-center justify-self-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" />
+                    <img class="w-16 h-16 object-contain self-center justify-self-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg" />
+                    <img class="w-16 h-16 object-contain self-center justify-self-center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg" />
                 </div>
             </div>
         </div>
@@ -127,9 +127,13 @@
     ];
 
     $pageSize = 3;
-    $currentPage = max(1, intval(request()->get('page', 1)));
+    $currentPage = max(1, (int) request()->get('page', 1));
     $totalItems = count($projects);
     $totalPages = (int) ceil($totalItems / $pageSize);
+
+    if ($totalPages < 1) {
+        $totalPages = 1;
+    }
 
     if ($currentPage > $totalPages) {
         $currentPage = $totalPages;
@@ -137,6 +141,14 @@
 
     $start = ($currentPage - 1) * $pageSize;
     $pagedProjects = array_slice($projects, $start, $pageSize);
+
+    $baseUrl = request()->url();
+    $queryWithPage = function($p) use ($baseUrl) {
+        return "{$baseUrl}?" . http_build_query(array_merge(request()->except('page'), ['page' => $p]));
+    };
+
+    $prevPage = max(1, $currentPage - 1);
+    $nextPage = min($totalPages, $currentPage + 1);
 @endphp
 
     <section class="mb-28">
@@ -168,7 +180,6 @@
             <!-- Paginación simple -->
             <div id="paginacion" class="flex justify-center space-x-2">
                 @if ($totalPages > 1)
-                    <a href="?page={{ max(1, $currentPage - 1) }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white hover:text-black" aria-label="Página anterior" style="opacity: {{ $currentPage == 1 ? 0.5 : 1 }}; pointer-events: {{ $currentPage == 1 ? 'none' : 'auto' }}"> Anterior </a>
 
                     @for ($i = 1; $i <= $totalPages; $i++)
                         <a href="?page={{ $i }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white hover:text-black">
@@ -176,7 +187,6 @@
                         </a>
                     @endfor
 
-                    <a href="?page={{ min($totalPages, $currentPage + 1) }}" class="px-3 py-1 border rounded bg-gray-300 hover:bg-white hover:text-black" aria-label="Página siguiente" style="opacity: {{ $currentPage == $totalPages ? 0.5 : 1 }}; pointer-events: {{ $currentPage == $totalPages ? 'none' : 'auto' }}"> Siguiente </a>
                 @endif
             </div>
         </div>
