@@ -6,7 +6,7 @@ export default defineConfig({
         laravel({
             input: ['resources/css/app.css', 'resources/css/styles.css',
                     'resources/js/animeEffects.js', 'resources/js/app.js',
-                    'resources/js/paginadorSinMover.js'],
+                    'resources/js/scrollReveal.js', 'resources/js/paginadorSinMover.js'],
             refresh: true,
         }),
     ],

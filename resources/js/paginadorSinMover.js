@@ -98,37 +98,15 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   }
 
-  // Interceptar enlaces con ?page=
-  document.querySelectorAll('a[href^="?page="]').forEach(function (link) {
-    link.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.querySelectorAll('a[href^="?page="]').forEach(function (l) {
-        l.classList.remove('paginacion-activa');
-      });
-      e.currentTarget.classList.add('paginacion-activa');
-      const url = link.getAttribute('href');
-      // Cargar la página por AJAX y actualizar el historial
-      loadPage(url, true);
-    });
+  // Interceptar enlaces con ?page= (delegación de eventos: también cubre los
+  // enlaces que llegan por AJAX dentro de #list-container).
+  document.addEventListener('click', function (e) {
+    const link = e.target.closest('a[href^="?page="]');
+    if (!link) return;
+    e.preventDefault();
+    const url = link.getAttribute('href');
+    loadPage(url, true);
   });
-
-  // Manejar botones/links que ya existan tras el primer carga (dinámicos)
-  // Reemplazar listeners si se añaden más enlaces después de la carga
-  function delegateLinks() {
-    document.querySelectorAll('a[href^="?page="]').forEach(function (link) {
-      if (!link.dataset.ajaxBound) {
-        link.addEventListener('click', function (e) {
-          e.preventDefault();
-          const url = link.getAttribute('href');
-          loadPage(url, true);
-        });
-        link.dataset.ajaxBound = '1';
-      }
-    });
-  }
-
-  // Llamar a delegateLinks cada vez que el DOM cambie de forma dinámica si aplica
-  // (opcional, depende de tu implementación)
 
   // Manejar navegación del forward/backward del navegador
   window.addEventListener('popstate', function (event) {

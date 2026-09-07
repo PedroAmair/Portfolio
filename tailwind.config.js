@@ -23,10 +23,18 @@ export default {
         '3xl' : '2000px',
         '4xl' : '3000px',
       },
+      colors: {
+        accent: {
+          DEFAULT: '#babe23',
+          light: '#d5da66',
+          dark: '#8f9315',
+        },
+      },
       fontFamily: {
         'presentation' : ['Anton', 'sans-serif'],
-        'personalWords' : ['Dancing Script', 'cursive']
-      }
+        'personalWords' : ['Dancing Script', 'cursive'],
+        'body' : ['Inter', 'sans-serif'],
+      },
     },
   },
   plugins: [require("tw-elements/dist/plugin.cjs")],

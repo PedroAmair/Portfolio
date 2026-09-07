@@ -7,7 +7,7 @@ return [
     'myWords' => "No sueñes despierto, programa lo que sueñas",
     'intro' => "Sobre mi",
     'introContent' => "Programador apasionado y autodidacta.
-     interesado en cultivar conocimiento para alcanzar el
+     Interesado en cultivar conocimiento para alcanzar el
      éxito.",
     'progLanguages' => "Lenguajes",
     'progTools' => "Herramientas",
@@ -30,7 +30,7 @@ return [
      de autos. Se realizó usando HTML5, CSS3 JavaScript Y PHP puro,
      sin usar ningún framework.",
     'project1Content2' => "El portal web tiene una sección administrativa
-     divida en dos áreas con sus respectivos CRUD's para la gestión, tanto 
+     dividida en dos áreas con sus respectivos CRUD's para la gestión, tanto 
      de usuarios administrativos como de vehículos publicados.",
     'project1Content3' => "Para el acceso a la sección administrativa del
      proyecto me pueden contactar para pasarles las credenciales de un 
@@ -82,7 +82,7 @@ return [
       está en desarrollo y próximamente será llevado a producción.",
     'project7Content1' => "Sitio web oficial del Benemérito Cuerpo de Bomberos de Costa Rica. Este proyecto es el 
      que vino a sustituir al sitio web anterior de la institución. En dicho sitio web se pueden conseguir diversas 
-     secciones dearrolladas para cada uno de los sub-deparamentos que conforman al BCBCR.",
+     secciones desarrolladas para cada uno de los subdepartamentos que conforman al BCBCR.",
     'project7Content2' => "Este proyecto fue diseñado utilizando elementor Pro y varios plugins para expandir la 
      funcionalidad, en base a todos los requerimientos solicitados por el cliente. En las diversas secciones que 
      existen se utilizaron distintas y variadas funcionalidades de Elementor Pro, incluso aquellas que no son muy 

@@ -1,16 +1,22 @@
 .principal {
-    background-image: url('/public/img/desktop.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     overflow: hidden;
-    background-position: center center;
 }
 
-@media(min-width: 1025px) {
-    .principal {
-        background-position: 0 0;
-    }
+.principal-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.principal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(209, 213, 219, 0.25);
+    z-index: 1;
 }
 
 .imagen {
@@ -52,14 +58,16 @@
     position: relative;
     overflow: hidden;
     border-radius: 15px;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, border-color 0.5s ease;
     width: 40rem;
     height: 17rem;
     box-shadow: 0 2px 6px rgba(209,213,219,0.15);
+    border: 2px solid transparent;
 }
 
 .card:hover {
-    box-shadow: 0 10px 20px rgba(209,213,219,0.35);
+    box-shadow: 0 10px 24px rgba(186, 190, 35, 0.3);
+    border-color: #babe23;
 }
 
 .card-face {
@@ -85,7 +93,7 @@
     z-index: 2;
     border-radius: 15px;
     background: linear-gradient(to bottom, rgba(209,213,219,0) 0%, rgba(209,213,219,0) 60%), #1f1f1f;
-    background-image: url('../../public/img/projects/fondo-proyecto.png');
+    background-image: url('../../public/img/projects/fondo-proyecto.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -113,11 +121,69 @@
     border-radius: 15px;
 }
 
-@media(min-width: 1024px) {
-    .paginacion-activa,
-    .paginacion-activa:hover {
-        background: #000; /* negro */
-        color: #fff;
+/* Pagination active - complementa las clases inline de Tailwind */
+.paginacion-activa,
+a.bg-accent {
+    background: #babe23;
+    color: #000;
+    border-color: #babe23;
+    font-weight: 600;
+}
+
+a.bg-accent:hover {
+    background: #8f9315;
+    border-color: #8f9315;
+}
+
+/* Scroll reveal */
+/* Los elementos solo se ocultan cuando JS está activo (JS añade .reveal-pending).
+   De esta forma, si el script falla, el contenido siempre es visible. */
+.reveal-pending {
+    opacity: 0;
+    transform: translateY(28px);
+}
+
+.reveal {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal-pending {
+        opacity: 1;
+        transform: none;
+        transition: none;
     }
+}
+
+/* Scroll indicator */
+.scroll-indicator {
+    animation: scrollBounce 2s ease-in-out infinite;
+}
+
+@keyframes scrollBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .scroll-indicator {
+        animation: none;
+    }
+}
+
+/* Tech icons hover (sin tooltip de nombre) */
+.tech-icon {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: default;
+}
+
+.tech-icon:hover {
+    transform: scale(1.15);
 }
 
