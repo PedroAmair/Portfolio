@@ -62,7 +62,7 @@
                 <h1 id="sideMovement" class="vanish sideMovement text-zinc-900 text-[3rem] xs:text-[4rem] md:text-[5rem] 2xl:text-[8rem] font-presentation uppercase font-bold">
                     Pedro Amair
                </h1>
-               <div class="flex flex-col items-center mt-[-1.6rem]">
+               <div class="flex flex-col items-center mt-[-1rem]">
                     <p class="vanish imagen text-transparent text-[2rem] xs:text-[2.5rem] md:text-[3.5rem] 2xl:text-[5rem] font-presentation uppercase font-bold">
                         Web developer
                     </p>
@@ -213,7 +213,7 @@
 
             <!-- Paginación simple -->
             @if ($totalPages > 1)
-            <div id="paginacion" class="flex flex-wrap justify-center gap-2 mt-12">
+            <div id="paginacion" class="flex flex-wrap justify-center gap-2 mt-16">
                 <a href="?page={{ $prevPage }}" aria-label="@lang('pagination.previous')" class="px-4 py-2 border rounded transition-colors duration-200 {{ $currentPage == 1 ? 'pointer-events-none opacity-40 cursor-not-allowed bg-gray-300' : 'bg-gray-300 hover:bg-white hover:text-black' }}">
                     @lang('pagination.previous')
                 </a>
