@@ -213,7 +213,7 @@
 
             <!-- Paginación simple -->
             @if ($totalPages > 1)
-            <div id="paginacion" class="flex flex-wrap justify-center gap-2 mt-16">
+            <div id="paginacion" class="flex flex-wrap justify-center gap-2 mt-24 sx:mt-16">
                 <a href="?page={{ $prevPage }}" aria-label="@lang('pagination.previous')" class="px-4 py-2 border rounded transition-colors duration-200 {{ $currentPage == 1 ? 'pointer-events-none opacity-40 cursor-not-allowed bg-gray-300' : 'bg-gray-300 hover:bg-white hover:text-black' }}">
                     @lang('pagination.previous')
                 </a>
