@@ -64,7 +64,7 @@
                </h1>
                <div class="flex flex-col items-center mt-[-1rem]">
                     <p class="vanish imagen text-transparent text-[2rem] xs:text-[2.5rem] md:text-[3.5rem] 2xl:text-[5rem] font-presentation uppercase font-bold">
-                        Web developer
+                        {{__('messages.webDeveloper')}}
                     </p>
                 </div>
             </div>

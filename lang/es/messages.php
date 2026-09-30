@@ -5,6 +5,8 @@ return [
     'languageSelection1' => "Español",
     'languageSelection2' => "Inglés",
     'myWords' => "No sueñes despierto, programa lo que sueñas",
+    'webDeveloper' => "Desarrollador web",
+    'metaDescription' => "Portfolio web de Pedro Amair — Desarrollador web",
     'intro' => "Sobre mi",
     'introContent' => "Programador apasionado y autodidacta.
      Interesado en cultivar conocimiento para alcanzar el

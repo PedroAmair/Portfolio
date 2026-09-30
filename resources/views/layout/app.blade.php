@@ -12,7 +12,7 @@
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
         <title>Portfolio Pedro Amair</title>
-        <meta name="description" content="Portfolio web de Pedro Amair — Web Developer">
+        <meta name="description" content="{{__('messages.metaDescription')}}">
     </head>
     <body class="bg-black max-w-[2600px] font-body">
         

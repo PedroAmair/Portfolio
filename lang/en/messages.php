@@ -5,6 +5,8 @@ return [
     'languageSelection1' => "Spanish",
     'languageSelection2' => "English",
     'myWords' => "Don't daydream, code what you dream",
+    'webDeveloper' => "Web developer",
+    'metaDescription' => "Pedro Amair's web portfolio — Web Developer",
     'intro' => "About me",
     'introContent' => "Enthusiastic and self-taught programmer. 
      Interested in cultivating knowledge to 
